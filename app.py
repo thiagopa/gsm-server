@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Service is Running!'
+    return 'Service is Running! Access /api'
 
 app.register_blueprint(login_service)
 CORS(app)
