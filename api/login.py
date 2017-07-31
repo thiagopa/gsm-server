@@ -9,10 +9,10 @@ from flask_cors import cross_origin
 login_service = Blueprint('login_service', __name__)
 
 users = [{
-    'email' : 'thiago.alves@gsoftware.com.br',
+    'email' : 'thi.pag@gmail.com',
     'password' : '654321'
 },{
-    'email' : 'admin@gsoftware.com.br',
+    'email' : 'admin@admin.com.br',
     'password' : '123456'
 }]
 
